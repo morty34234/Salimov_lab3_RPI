@@ -10,7 +10,7 @@ const Partners = () => {
       <div className="grid">
         <div className="card">
           <div className="card1">
-            <img src="../src/images/icl.png" alt="ICL" className="photo1" />
+            <img src="https://storage.yandexcloud.net/lectorsphoto/icl.png" alt="ICL" className="photo1" />
             <a href="https://icl.ru/" className="partner-btn">
             <p className="text-part">↗</p>
             </a>
@@ -22,7 +22,7 @@ const Partners = () => {
         </div>
         <div className="card">
           <div className="card1">
-           <img src="../src/images/tat.png" alt="Татнефть" className="photo2" />
+           <img src="https://storage.yandexcloud.net/lectorsphoto/tat.png" alt="Татнефть" className="photo2" />
             <a href="https://www.tatneft.ru/" className="partner-btn">
             <p className="text-part">↗</p>
             </a>

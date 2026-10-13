@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./BookingModal.css";
+import "../styles/BookingModal.css";
 
 const BookingModal = ({ lector, onClose }) => {
   const [form, setForm] = useState({

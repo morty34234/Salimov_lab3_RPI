@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="hero">
-        <img src="../src/images/home.png" alt="Home" className="photo" />
+        <img src="https://storage.yandexcloud.net/lectorsphoto/home.png" alt="Home" className="photo" />
         <div className="text-content">
           <p>
             Наши лекторы — признанные специалисты в своих областях,

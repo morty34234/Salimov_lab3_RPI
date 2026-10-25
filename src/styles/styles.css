@@ -692,3 +692,31 @@
   color: #ffe082;       
   font-weight: 400;
 }
+
+/* Error Boundary */
+.error-boundary {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    border: 1px solid #e0e6f0;
+}
+
+    .error-boundary h2 {
+        color: #c62828;
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
+
+    .error-boundary p {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+    .error-boundary .action-btn {
+        min-width: 200px;
+    }

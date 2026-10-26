@@ -3,6 +3,7 @@ import { lectors } from "../data/lectors.js";
 import { useFavorites } from "../context/FavoritesContext.jsx";
 
 const Lectors = () => {
+  throw new Error("Тестовая ошибка для проверки Error Boundary");
   const { toggleFavorite, isFavorite } = useFavorites();
 
   return (
